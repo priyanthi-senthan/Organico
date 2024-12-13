@@ -1,0 +1,147 @@
+/* Reset some default styles for better consistency */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set a background color, font styles, and line height for the entire page */
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the header */
+header {
+    background: linear-gradient(to right, #0056b3, #f500fd);
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+/* Style the main content */
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+main h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+main p {
+    font-size: 1.1rem;
+    line-height: 1.4;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+/* Style the contact information section */
+#contact-info {
+    margin-bottom: 40px;
+}
+
+#contact-info h2 {
+    color: #007acc;
+}
+
+address p {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+}
+
+/* Style the contact form */
+#contact-form {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1.1rem;
+}
+
+button[type="submit"] {
+    background-color: #007acc;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #005baa;
+}
+
+/* Style the footer */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: linear-gradient(to right, #0056b3, #f500fd);
+    color: #fff;
+}
+
+/* Add responsive styles */
+@media screen and (max-width: 768px) {
+    header h1 {
+        font-size: 2rem;
+    }
+
+    nav ul li {
+        margin-right: 10px;
+    }
+
+    main {
+        padding: 10px;
+    }
+}

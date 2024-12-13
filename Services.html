@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buy Products</title>
+    <link rel="stylesheet" href="Services.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>BUY ORGANIC PRODUCTS HERE</h1>
+        <nav>
+            <ul>
+                <li><a href="Homepage.html">Home</a></li>
+                <li><a href="AboutUS.html">About US</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="search-bar">
+            <input type="text" id="searchInput" placeholder="Search products...">
+            <button id="searchButton">Search</button>
+            <a href="user-login.html" class="cta-button">Logout</a>
+        </div>
+    </header>
+
+    <main>
+        <div class="product-container" id="productContainer"></div>
+
+        <!-- Add this code to your existing Services.html file -->
+
+        <div class="cart">
+            <h2>Cart</h2>
+            <ul id="cartItems"></ul>
+            <div class="total">
+                Total: $<span id="totalPrice">0.00</span>
+            </div>
+            <button id="buyButton">Buy</button>
+            <div id="purchaseMessage" class="purchase-message">Purchase successful!</div>
+        </div>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Your Company Name. All rights reserved.</p>
+    </footer>
+
+    <script src="Services.js"></script>
+</body>
+
+</html>
